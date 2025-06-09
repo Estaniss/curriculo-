@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Thomas Estanislau - Desenvolvedor Front-end</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js"></script>
   </head>
   <body>
     <div class="container">
@@ -33,7 +34,12 @@
           </div>
           <div class="contact-item">
             <span>📱 </span>
-            <span>(16) 99713-7932</span>
+            <a
+              class="whatsapp-link"
+              href="https://wa.me/5516997137932"
+              target="_blank"
+              >(16) 99713-7932</a
+            >
           </div>
           <div class="contact-item">
             <span>📍</span>
@@ -117,10 +123,16 @@
               <p class="duration">Setembro 2024 - Presente (10 meses)</p>
               <p class="location">Araraquara, São Paulo</p>
               <p class="description">
-                Desenvolvimento de soluções fullstack utilizando as mais
-                modernas tecnologias do mercado. Responsável por análise de
-                requisitos, arquitetura de software e implementação de
-                funcionalidades críticas para o negócio.
+                Desenvolvedor frontend especializado em React.js e Next.js, com
+                experiência sólida na criação de interfaces modernas e
+                responsivas. Trabalho com integração de bancos de dados
+                PostgreSQL, implementação de formulários robustos utilizando
+                Formik, e desenvolvimento de componentes utilizando Material-UI
+                (MUI). Possuo conhecimentos em PHP para desenvolvimento
+                full-stack e experiência em metodologias ágeis (Scrum),
+                utilizando JIRA para gestão de projetos e acompanhamento de
+                sprints. Focado em entregar soluções eficientes, escaláveis e
+                com excelente experiência do usuário.
               </p>
             </div>
 
@@ -152,18 +164,15 @@
                 <strong>Frontend:</strong> React, React Native, TypeScript,
                 JavaScript, HTML5, CSS3, Styled Components, ANTD
               </p>
-              <p>
-                <strong>Backend:</strong> Node.js, APIs RESTful, Entity
-                Framework Core
-              </p>
+              <p><strong>Backend:</strong> Node.js, APIs RESTful</p>
               <p><strong>Banco de Dados:</strong> SQL, NoSQL</p>
               <p>
                 <strong>Cloud & DevOps:</strong> AWS, Docker, CI/CD, PM2, Nginx
               </p>
               <p><strong>Ferramentas:</strong> Git, Jira, Monday, Scrum</p>
               <p>
-                <strong>Práticas:</strong> Clean Code, POO, Arquitetura de
-                Software, Metodologias Ágeis
+                <strong>Práticas:</strong> Clean Code, Arquitetura de Software,
+                Metodologias Ágeis
               </p>
             </div>
           </section>
@@ -203,5 +212,8 @@
         </main>
       </div>
     </div>
+    <button class="floating-btn" onclick="downloadPDF()" title="Download PDF">
+      📄
+    </button>
   </body>
 </html>
